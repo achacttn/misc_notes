@@ -13,3 +13,7 @@ let isRequired = () => {
 let greetings = ( name = isRequired(),  message="hello" ) => {
     return `${message} ${name}`;
 }
+
+// comma operator
+let val = (12, 32);
+// => 12 is evalulated, then 32 is assigned to val
